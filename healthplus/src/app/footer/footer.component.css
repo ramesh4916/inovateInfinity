@@ -98,14 +98,44 @@ ul li{
 #sub4{
     width: 20%;
     height: 50vh;
-    background-color: rgb(47, 248, 64);
+    /* background-color: rgb(47, 248, 64); */
     position: relative;
+    color: #fff;
 }
 #sub5{
     width: 20%;
     height: 50vh;
-    background-color: rgb(203, 90, 244);
+    /* background-color: rgb(203, 90, 244); */
     position: relative;
+    color: #fff;
+}
+i{
+    font-size: 25px;
+}
+
+#facebook:hover{
+    color:rgb(4, 56, 187);
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+#twitter:hover{
+    color:rgb(5, 131, 142);
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+#linkedin:hover{
+    color:rgb(4, 13, 118);
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+#youtube:hover{
+    color:red;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #fff;
 }
 #div2{
     width: 100%;

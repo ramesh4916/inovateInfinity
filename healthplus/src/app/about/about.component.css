@@ -1,0 +1,43 @@
+i{
+    font-size: 22px;
+}
+i:hover{
+    background-color:#dadada;
+    padding: 10px;
+    border-radius: 50%;
+    color: #222;
+}
+#aboutteam{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://www.galaxyeduworld.com/storage/blogs/neet_exam.jpg);
+    background-size: cover;
+}
+#overlay{
+    width: 100%;
+    height: 60vh;
+    background-color: #2222228a;
+    position: relative;
+}
+#center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+#center h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#center p{
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+#sec{
+    margin-top: -100px;
+}
