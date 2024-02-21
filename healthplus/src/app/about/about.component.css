@@ -10,8 +10,9 @@ i:hover{
 #aboutteam{
     width: 100%;
     height: 60vh;
-    background-image: url(https://www.galaxyeduworld.com/storage/blogs/neet_exam.jpg);
+    background-image: url(https://miro.medium.com/v2/resize:fit:677/1*xmc3toSsG0aU56O8-QM7UA.png);
     background-size: cover;
+    /* background-position: center; */
 }
 #overlay{
     width: 100%;
