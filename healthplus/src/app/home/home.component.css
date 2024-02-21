@@ -39,7 +39,7 @@ p{
     padding: 10px 10px;
 }
 #apoint:hover{
-    background-color: #1b78fb;
+    background-color:#209AD3;
     color: #fff;
 }
 #right{
@@ -97,7 +97,7 @@ p{
     color: #fff;
 }
 #p2txtcenter a:hover{
-    background-color: #1b78fb;
+    background-color: #209AD3;
     color: #fff;
 }
 #p2right{
@@ -311,7 +311,7 @@ span{
 #p4overlay{
     width: 100%;
     height: 100vh;
-    background-color: #4341b9cd;
+    background-color: #209ad371;
 }
 #p4card{
     width: 80%;
@@ -407,19 +407,19 @@ span{
     font-weight: bold;
 }
 #p4sub1:hover{
-    background-color: #1b78fb;
+    background-color: #209AD3;
     color: #fff;
 }
 #p4sub2:hover{
-    background-color: #1b78fb;
+    background-color: #209AD3;
     color: #fff;
 }
 #p4sub3:hover{
-    background-color: #1b78fb;
+    background-color: #209AD3;
     color: #fff;
 }
 #p4sub4:hover{
-    background-color: #1b78fb;
+    background-color: #209AD3;
     color: #fff;
 }
 
@@ -529,7 +529,7 @@ span{
 #p6overlay{
     width: 100%;
     height: 100vh;
-    background-color: #1b19abac;
+    background-color: #209ad38b;
 }
 #p6main{
     width: 100%;
@@ -555,46 +555,58 @@ span{
     margin-top: 5%;
 }
 
-/* form */
 
-  form{
-    color: #fff;
-  }
-  .appointment-form {
-    max-width: 400px;
+
+
+
+
+
+.patient-guide {
+    max-width: 800px;
     margin: 20px auto;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 8px;
-  }
-  
-  input, select, textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 16px;
-    box-sizing: border-box;
-  }
-  
-  input[type="submit"] {
-    background-color:#fff;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.guide-card {
+    background-color: #ffffffaf;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.guide-card h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color:#FAF7B5;
     color:#222;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #45a049;
+    border-radius: 4px;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+.guide-card a {
+    display: inline-block;
+    background-color: #3498db;
     color: #fff;
-    
-  }
-  input{
-    background-color: transparent;
-    border: 1px solid #fff;
-  }
-  textarea{
-    background-color: transparent;
-    border: 1px solid #fff;
-  }
-/* form */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+
+}
+
+.guide-card a:hover {
+    background-color: #2980b9;
+}
 

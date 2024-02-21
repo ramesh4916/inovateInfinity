@@ -6,7 +6,7 @@
       <h1>Best Care & Better Doctor</h1>
       <p>At Health Plus, we're here for your care. Experience the best care with our dedicated team of skilled doctors. Your health is our priority, and we're committed to providing top-notch medical expertise and genuine compassion. Welcome to a place where your well-being comes first.</p>
     </h5>
-    <a href="#" id="apoint">MAKE AN APOINTMENT</a>
+    <a routerLink="/appointment" id="apoint">MAKE AN APPOINTMENT</a>
   </div>
   </div>
 
@@ -125,15 +125,15 @@
                   <div id="p4sub1">
                       <div id="p4txtcenter">
                         <img src="	https://preview.colorlib.com/theme/medico/img/icon/feature_2.svg" alt="">
-                      <h4>Better Future</h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis tenetur quae voluptatem cum nihil impedit, similique error ut! Modi, excepturi.</p>
+                      <h4>Clinical Departments</h4>
+                      <p>HealthPlus's Medicine Department provides top-tier medical care, ranging from general health to specialized fields. </p>
                     </div>
                   </div>
                   <div id="p4sub2">
                     <div id="p4txtcenter">
                       <img src="	https://preview.colorlib.com/theme/medico/img/icon/feature_2.svg" alt="">
-                    <h4>Better Future</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis tenetur quae voluptatem cum nihil impedit, similique error ut! Modi, excepturi.</p>
+                    <h4>Administration Department</h4>
+                    <p>As the operational backbone, HealthPlus's Administration Department ensures the hospital's day-to-day efficiency and strategic planning</p>
                   </div>
                   </div>
               </div>
@@ -141,15 +141,15 @@
                   <div id="p4sub3">
                     <div id="p4txtcenter">
                       <img src="	https://preview.colorlib.com/theme/medico/img/icon/feature_2.svg" alt="">
-                    <h4>Better Future</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis tenetur quae voluptatem cum nihil impedit, similique error ut! Modi, excepturi.</p>
+                    <h4>Facilities Management</h4>
+                    <p>Dedicated to safety and comfort, HealthPlus's Facilities Management team oversees maintenance and safety protocols, contributing significantly to the overall well-being of patients and staff.</p>
                   </div>
                   </div>
                   <div id="p4sub4">
                     <div id="p4txtcenter">
                       <img src="	https://preview.colorlib.com/theme/medico/img/icon/feature_2.svg" alt="">
-                    <h4>Better Future</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis tenetur quae voluptatem cum nihil impedit, similique error ut! Modi, excepturi.</p>
+                    <h4>Emergency Department</h4>
+                    <p>HealthPlus's Emergency Department is a vital hub for immediate medical attention, staffed by professionals adept at handling urgent situations. </p>
                   </div>
                   </div>
               </div>
@@ -161,7 +161,7 @@
 
   <div id="page5">
     <h2>Experienced Doctors</h2>
-    <p>Face Replenish Sea Good Winged Bearing Years Air Divide WasHave Night Male Also</p>
+    <p>At HealthPlus, our team of seasoned and experienced doctors brings a wealth of expertise, ensuring patients receive the highest standard of care with precision and compassion.</p>
     <div id="p5main">
       <div id="p5doc1">
           <div id="p5imgdiv">
@@ -261,29 +261,22 @@
       <div id="p6overlay">
         <div id="p6main">
           <div id="p6left">
-            <form action="submit_appointment.php" method="post" class="appointment-form">
-              <h2>Make an Appointment</h2>
-          
-              <label for="name">Your Name:</label>
-              <input type="text" id="name" name="name" required>
-          
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email" required>
-          
-              <label for="phone">Phone Number:</label>
-              <input type="tel" id="phone" name="phone" required>
-          
-              <label for="appointmentDate">Preferred Date:</label>
-              <input type="date" id="appointmentDate" name="appointmentDate" required>
-          
-              <label for="appointmentTime">Preferred Time:</label>
-              <input type="time" id="appointmentTime" name="appointmentTime" required>
-          
-              <label for="reason">Reason for Appointment:</label>
-              <textarea id="reason" name="reason" rows="4" required></textarea>
-          
-              <input type="submit" value="Submit Appointment">
-            </form>
+
+      
+            <section class="patient-guide">
+              <div class="guide-card">
+                  <h2>Patient Guide</h2>
+                  <ul>
+                    <li>Access personalized health tips and resources.</li>
+                    <li>Manage and view your medical records securely.</li>
+                    <li>Book appointments with ease and convenience.</li>
+                    <li>Receive timely reminders and notifications.</li>
+                    <li>Explore a wealth of healthcare information and support.</li>
+                  </ul>
+                  <a routerLink="/appointment">Book Now</a>
+              </div>
+          </section>
+            
           </div>
 
           <div id="p6right">
