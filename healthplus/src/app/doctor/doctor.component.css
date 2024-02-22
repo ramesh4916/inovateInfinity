@@ -1,0 +1,29 @@
+
+#poster{
+    width: 100%;
+    height: 50vh;
+    background-image: url(https://medicahospitals.in/wp-content/uploads/2022/03/search-your-doctor.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#heading{
+    width: 90%;
+    height: 9vh;
+    background-color:#209AD3;
+    margin-left: 5%;
+    margin-top: 3%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+#heading h1{
+    font-size: 25px;
+    color: #fff;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+#doctorbody{
+    width: 90%;
+    height: 200vh;
+    background-color: rgb(238, 170, 170);
+    margin-left: 5%;
+}
