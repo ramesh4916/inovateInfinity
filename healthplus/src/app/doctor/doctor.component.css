@@ -248,7 +248,81 @@
 
 
 #right{
-    width: 30%;
-    /* height: 200vh; */
-    background-color: #b9ec86;
+    margin-left: 30px;
+    width: 28%;
+    height: 100vh;
+    /* background-color: #b9ec86; */
+    margin-top: 2.5vw;
+    border: 1px solid #fbd802;
+}
+#checkup{
+    width: 100%;
+    height: 10vh;
+    background-color:#fbd802;
+}
+#checkup h1{
+    font-size: 28px;
+    padding: 18px;
+    font-weight: 400;
+    font-family: sans-serif;
+    text-align: center;
+}
+#symptoms{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #9dd5f9; */
+}
+#box{
+    width: 100%;
+    height: 20vh;
+    /* background-color: red; */
+    display: flex;
+}
+#leftbox{
+    width: 50%;
+    height: 20vh;
+    /* background-color: red; */
+}
+#leftbox img{
+    margin-left: 3vw;
+}
+#leftbox a{
+    margin-left: 4vw;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight:bold;
+}
+
+
+#rightbox{
+    width: 50%;
+    height: 20vh;
+    /* background-color: rgb(86, 68, 68); */
+}
+#rightbox img{
+    margin-left: 3vw;
+}
+#rightbox a{
+    margin-left: 2vw;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight:bold;
+}
+#leftbox a:hover{
+    color: #c5720d;
+}
+#rightbox a:hover{
+    color: #c5720d;
+}
+#box1{
+    display: flex;
+    margin-top: 1vw;
+}
+#box2{
+    display: flex;
+    margin-top: 1vw;
+}
+#box3{
+    display: flex;
+    margin-top: 1vw;
 }
