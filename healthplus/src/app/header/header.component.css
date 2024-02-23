@@ -13,11 +13,11 @@
 ul{
     display: flex;
     list-style-type: none;
-    margin-right: 70px;
+    margin-right: 68px;
 }
 ul li{
     /* margin: 0 20px; */
-    padding: 0 30px;
+    padding: 0 23px;
 }
 ul li a{
     text-decoration: none;
