@@ -29,3 +29,9 @@ h2{
     font-family: sans-serif;
     font-weight: bold;
 }
+button{
+    background-color:rgba(8, 114, 235, 0.768);
+}
+button:hover{
+    background-color:rgb(3, 107, 155);
+}

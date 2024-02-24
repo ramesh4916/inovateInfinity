@@ -29,6 +29,10 @@
     background-color: #E6BB04;
     color: #222;
 }
+#button2:hover{
+    background-color:#3f7ff6;
+    color: #fff;
+}
 #button2{
     margin-top: 5px;
     background-color:#E6BB04;
