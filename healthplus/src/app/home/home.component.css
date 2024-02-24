@@ -457,7 +457,6 @@ span{
     margin-top: 50px;
     position: relative;
 }
-
 #sidebar{
     width: 60px;
     height: 25vh;
@@ -485,7 +484,7 @@ span{
     width: 100%;
     height: 15vh;
     background-color:#fff;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 #p5textdiv h3{
     font-size: 22px;
