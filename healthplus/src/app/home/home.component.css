@@ -175,6 +175,8 @@ p{
     width: 100%;
     height: 100vh;
     margin-top: 20px;
+    /* background-color: red; */
+    /* z-index: 999; */
 }
 #page3heading{
     font-size: 35px;
@@ -187,6 +189,7 @@ p{
     width: 100%;
     height: 100vh;
     display: flex;
+    
 }
 #p3left{
     width: 33%;
@@ -290,8 +293,6 @@ span{
     width: 355px;
     height: 355px;
 }
-
-
 
 #p3right{
     width: 33%;
@@ -437,6 +438,8 @@ span{
     font-size: 14px;
     font-family: sans-serif;
     text-align: center;
+    width: 80%;
+    margin-left: 10vw;
 }
 #p5main{
     width: 100%;
@@ -491,6 +494,7 @@ span{
     font-family: sans-serif;
     font-weight: bold;
     margin-left: 55px;
+    
 }
 #p5textdiv h3:hover{
     color: #1b78fb;
@@ -499,6 +503,7 @@ span{
     font-size: 14px;
     font-family: sans-serif;
     margin-left: 55px;
+    
    
 }
 #p5doc2{
@@ -608,4 +613,257 @@ li {
 .guide-card a:hover {
     background-color: #2980b9;
 }
+#rimg{
+    display: none;
+}
 
+@media (max-width:500px) {
+    #page1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #left{
+        width: 100%;
+        margin-top: 0;
+        background-color: rgba(30, 169, 234, 0.728);
+    }
+    #txtcenter h5{
+        font-size: 11vw;
+        font-family:sans-serif;
+        font-weight:bold;
+        text-align: center;
+    }
+    #txtcenter h1{
+        font-size: 5vw;
+        text-wrap: nowrap;
+        display: none;
+    }
+    #txtcenter p{
+        font-size: 4vw;
+        display: none;
+
+    }
+    span{
+        display: none;
+    }
+    #apoint{
+        border-radius:4vw;
+        font-size: 7vw;
+        
+    }
+    #right{
+        width: 100%;
+        margin-top: 0;
+    }
+    #rightimg{
+        display:none;
+    }
+    #rimg{
+        display: block;
+        padding-top: 30vw;
+        margin-left: 10vw;
+    }
+
+
+    #page2{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        /* background-color: red; */
+    }
+    #p2left{
+        display: none;
+    }
+    #p2right{
+        width: 100%;
+    }
+    #p2txtcenter h2{
+        font-size: 10vw;
+
+        text-align: center;
+        
+    }
+    #p2txtcenter{
+        margin-top: -20vw;
+    }
+    #p2txtcenter p{
+        font-size: 7vw;
+
+        text-align: center;
+
+        padding: 10px 30px;
+        
+    }
+
+    #p2txtcenter a{
+        margin-left: 10vw;
+        font-size: 5vw;
+        border-radius: 30vw;
+    }
+    #p2icon{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+     #page3{
+        width: 100%;  
+    }
+    #page3heading{
+        margin-left: 20vw;
+        text-wrap: nowrap;
+        font-size: 10vw;
+    }
+    #p3main{
+        display: flex;
+        flex-direction: column;
+    }
+    #p3left1{
+        width: 100%;
+    } 
+    #p3sub h4{
+        font-size: 5.5vw;
+        text-wrap: nowrap;
+        margin-left: 12vw;
+        color: red;
+    }
+    #p3para{
+        font-size: 5vw;
+        width: 100%;
+        text-align:justify;
+        margin-left: 10vw;
+        padding: 2vw;
+
+    }
+    #p3middle{
+        width: 100%;
+        margin-top: -90vw;
+        margin-left: 12vw;
+        display: none;
+    }
+    .p3mobi1{
+        margin-left: 13.5vw;
+    }
+    .p3mobi2{
+        margin-left: 13.5vw;
+        margin-top: 10vw;
+    }
+
+    .p3mobi{
+        margin-top: 40vw;
+    }
+    #page4{
+        width: 100%;
+        height: 140vh;
+        margin-top: 150vw;
+        display: none;
+    }
+    #page4 p{
+        color:#0b0202;
+    }
+    #p4main1{
+        display: flex;
+        flex-direction:column;
+    }
+    
+    #page4 h4{
+        color:green;
+    }
+    #p4sub1{
+        width: 100%;
+        margin-left: -1vw;
+        background-color:#dadada
+    }
+    
+    #p4sub2{
+        width: 100%;
+        margin-left: -1vw;
+        background-color:#dadada
+    }
+    #p4sub3{
+        width: 100%;
+        margin-left: -1vw;
+        margin-top: 100vw;
+        background-color:#dadada
+        /* display: none; */
+    }
+    #p4sub4{
+        width: 100%;
+        margin-left: -1vw;
+        margin-top: 200vw;
+        display: none;
+        background-color:#dadada
+    }
+   #page5{
+    width: 100%;
+    height: 100vh;
+    margin-top: 50vw;
+   }
+   #page5 h2{
+    font-size: 10vw;
+   }
+   #page5 p{
+    font-size: 5vw;
+    text-align: justify;
+    padding: 5vw;
+   }
+   #p5main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   }
+#p5imgdiv{
+    width: 200%;
+    margin-left: 10vw;
+}
+#p5textdiv{
+    width: 100%;
+    margin-top: -2vw;
+}
+#p5textdiv h3{
+    font-size: 6vw;
+    text-wrap: nowrap;
+    color: #1b78fb;
+    }
+#p5textdiv h6{
+    font-size: 4vw;
+    text-wrap: nowrap;
+    color: red;
+
+    }
+    #p5doc1{
+        margin-left: 10vw;
+    }
+    #p5doc2{
+        margin-left: 16vw;
+    }
+    #p5doc3{
+        margin-left: 16vw;
+    }
+    #p5doc4{
+        margin-left: 16vw;
+    }
+    #page6{
+        width: 100%;
+        height: 100vh;
+        margin-top: 370vw;
+        /* display: none; */
+    }
+
+    #p6right{
+        display: none;
+    }
+    #bn{
+        background-color:green;
+    }
+    ul li{
+        background-color: #d0ed3f;
+    }
+    #pg{
+        color: red;
+        font-weight: bold;
+    }
+    
+}

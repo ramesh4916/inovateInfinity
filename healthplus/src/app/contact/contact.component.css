@@ -35,3 +35,36 @@ button{
 button:hover{
     background-color:rgb(3, 107, 155);
 }
+
+@media (max-width:500px) {
+    #main{
+        width: 100%;
+        display: none;
+    }
+    #overlay{
+        display: none;
+    }
+    #info{
+        display: none;
+    }
+    section{
+        width: 100%;
+        height: 130vh;
+    }
+    #fdb{
+        font-size: 8vw;
+        font-weight: bold;
+        color: rgb(4, 95, 232);
+    }
+    #pra{
+        color: green;
+    }
+    label{
+        color: red;
+        font-size: 5vw;
+    }
+    iframe{
+        border: 1vw solid orange;
+        margin-top: 2.5vw;
+    }
+}
