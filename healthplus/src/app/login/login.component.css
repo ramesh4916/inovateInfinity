@@ -35,6 +35,9 @@ form {
     gap: 15px;
 }
 
+.red-txt{
+    color: red;
+}
 h2 {
     text-align: center;
     color: #333;
@@ -64,6 +67,10 @@ button {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+}
+button:disabled{
+    background-color: #ddd;
+    cursor: not-allowed;
 }
 
 button:hover {
